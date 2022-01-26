@@ -3,15 +3,18 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #333;
+  color: #994ff3;
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
+  color: #00ebc7;
 }
 
+.logo {
+  max-width: 100%;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -33,7 +36,7 @@ li {
 }
 
 /*--------------------------------
- レイアウト
+レイアウト
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -138,7 +141,7 @@ li {
 }
 
 /*--------------------------------
- メインビジュアル
+メインビジュアル
 ---------------------------------*/
 .main-visual {
   display: flex;
@@ -188,7 +191,7 @@ li {
 }
 
 /*--------------------------------
- Works
+Works
 ---------------------------------*/
 .works-list {
   display: flex;
