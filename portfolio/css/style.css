@@ -5,7 +5,9 @@ body {
   letter-spacing: .8px;
   color: #994ff3;
 }
-
+.main-visual-text {
+  color: #000000;
+}
 a {
   transition: opacity .3s;
   text-decoration: none;
@@ -82,7 +84,7 @@ li {
   z-index: 1;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  box-shadow: 0 5px 10px -6px #17F9AD;
 }
 
 .header .inner {
@@ -214,14 +216,14 @@ Works
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: 	#66FF99;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   border: 1px dashed #FFF;
-  box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  box-shadow: 0px 0px 0px 2px #66FFCC;/* box-shadowで外枠を */
 }
 
 .btn-denim:hover {
@@ -233,13 +235,13 @@ Works
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #66FF33;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #66FFCC;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -251,7 +253,7 @@ Works
   position: absolute;
   top: 50%;
   left: 50%;
-  background : #FFF;
+  background : #FFFFDD;
   opacity: 0;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transition: .2s;
@@ -274,12 +276,12 @@ Works
   max-width: 180px;
   text-align: center;
   font-size: 16px;
-  color: #9ec34b;
+  color: #1BFF4A;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   position: relative;
-  border: 2px solid #9ec34b;
+  border: 2px solid 	#17F9AD;
   transition: .4s;
 }
 
@@ -328,7 +330,7 @@ Works
   font-weight: bold;
   padding: 12px 24px;
   border-radius: 4px;
-  background-image: linear-gradient(-90deg, #89eb75, #f1e753);
+  background-image: linear-gradient(-90deg, 	#00FF7F, 	#77EEFF);
   transition: .5s;
   background-size: 200%;
 }
@@ -415,7 +417,7 @@ Works
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #4c4c4c;
+  background-color: #D0B0FF;
 }
 
 .page-top .material-icons-outlined {
@@ -428,7 +430,7 @@ Works
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color: #112;
 }
 
 .copyright {
