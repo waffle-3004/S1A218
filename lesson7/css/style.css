@@ -43,6 +43,7 @@ figure {
 img {
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 address {
   font-style: normal;
@@ -372,7 +373,7 @@ button[type="submit"]:hover {
   .col {
     /* フレックスアイテムに対する指定 */
     
-    margin: 0;
+    margin: 0 auto;
   }
   /* --------------------------------------------------
   営業案内
